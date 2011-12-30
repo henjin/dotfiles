@@ -64,6 +64,3 @@ alias tlog='tail -f log/development.log'
 # sqlplus with readline
 alias sqlplus="rlwrap sqlplus"
 
-# vi
-alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
-alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
