@@ -12,8 +12,9 @@ alias k9='kill -9'
 function ka { kill $(ps xc | grep -wi "$*" | awk '{print $1}'); }
 function ka9 { kill -9 $(ps xc | grep -wi "$*" | awk '{print $1}'); }
 
-# textmate
-function m { mate ${*:-.}; }
+# sublime
+alias subl='/usr/lib/sublime-text-2/sublime_text'
+
 
 # ls
 alias l='ls -1'
